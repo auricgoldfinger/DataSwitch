@@ -5,7 +5,7 @@
     android:icon="@mipmap/disable_data_icon"
     android:shortcutDisabledMessage="@string/disable_unavailable"
     android:shortcutId="disable"
-    android:shortcutLongLabel="@string/disable_data"
+    android:shortcutLongLabel="@string/disable_mobile_data"
     android:shortcutShortLabel="@string/disable">
     <intent
       android:action="android.intent.action.VIEW"
@@ -22,7 +22,7 @@
     android:icon="@mipmap/enable_data_icon"
     android:shortcutDisabledMessage="@string/enable_unavailable"
     android:shortcutId="enable"
-    android:shortcutLongLabel="@string/enable_data"
+    android:shortcutLongLabel="@string/enable_mobile_data"
     android:shortcutShortLabel="@string/enable">
     <intent
       android:action="android.intent.action.VIEW"
