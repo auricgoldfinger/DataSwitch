@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+  <shortcut
+    android:enabled="true"
+    android:icon="@mipmap/disable_data_icon"
+    android:shortcutDisabledMessage="@string/disable_unavailable"
+    android:shortcutId="disable"
+    android:shortcutLongLabel="@string/disable_data"
+    android:shortcutShortLabel="@string/disable">
+    <intent
+      android:action="android.intent.action.VIEW"
+      android:targetClass="be.bermione.switchnougatdata.DisableDataActivity"
+      android:targetPackage="be.bermione.switchnougatdata" />
+    <!-- If your shortcut is associated with multiple intents, include them
+         here. The last intent in the list determines what the user sees when
+         they launch this shortcut. -->
+    <categories android:name="android.shortcut.data" />
+  </shortcut>
+
+  <shortcut
+    android:enabled="true"
+    android:icon="@mipmap/enable_data_icon"
+    android:shortcutDisabledMessage="@string/enable_unavailable"
+    android:shortcutId="enable"
+    android:shortcutLongLabel="@string/enable_data"
+    android:shortcutShortLabel="@string/enable">
+    <intent
+      android:action="android.intent.action.VIEW"
+      android:targetClass="be.bermione.switchnougatdata.EnableDataActivity"
+      android:targetPackage="be.bermione.switchnougatdata" />
+    <categories android:name="android.shortcut.data" />
+  </shortcut>
+</shortcuts>

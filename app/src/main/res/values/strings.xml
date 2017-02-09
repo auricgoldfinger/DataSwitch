@@ -1,0 +1,11 @@
+<resources>
+  <string name="app_name">Switch Nougat Data</string>
+
+  <string name="disable_unavailable">Disable Unavailable</string>
+  <string name="disable">Disable</string>
+  <string name="disable_data">Disable Data</string>
+
+  <string name="enable_unavailable">Enable Unavailable</string>
+  <string name="enable">Enable</string>
+  <string name="enable_data">Enable Data</string>
+</resources>

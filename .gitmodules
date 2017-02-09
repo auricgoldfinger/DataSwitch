@@ -1,0 +1,3 @@
+[submodule "RootShell"]
+	path = RootShell
+	url = https://github.com/Stericson/RootShell.git
